@@ -1,4 +1,4 @@
-     
+      
 
 /*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
 
@@ -31,6 +31,10 @@
 @import url(nice-select.css);
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+:root{
+     --principal: #FF95B5;
+}
 
 * {
      box-sizing: border-box !important;
@@ -428,7 +432,7 @@ button {
 .read_more {
      font-size: 17px;
      background-color: #FFE4EF;
-     color: #000000;
+     color: #FF95B5;
      padding: 9px 0px;
      width: 100%;
      max-width: 177px;
@@ -440,7 +444,7 @@ button {
 
 .read_more:hover {
      background: #FFBDD4;
-     color: #000000;
+     color: #FF95B5;
      transition: ease-in all 0.5s;
 }
 
@@ -461,7 +465,7 @@ button {
 
 .our_yoga h3 {
      margin-top: 30px;
-     font-size: 30px;
+     font-size: 20px;
      line-height: 20px;
      color: #3e3e3e;
      text-transform: uppercase;
@@ -516,6 +520,7 @@ button {
 .middle .titlepage h2 {
      color: #fff;
      padding-bottom: 30px;
+     font-weight: 30px;
 }
 
 .middle .titlepage p {
@@ -668,7 +673,7 @@ button {
 }
 
 .pricing h3 span {
-     color: #f4a111;
+     color: green;
 }
 
 .pricing h3::before {
@@ -690,7 +695,7 @@ button {
 }
 
 .dark_bg {
-     background: #252525;
+     background:  #FFE4EF;
      font-weight: normal;
      text-transform: uppercase;
 }
@@ -701,11 +706,11 @@ button {
 }
 
 .ho_bor .read_more {
-     background: #f4a111;
+     background: #FFE4EF;
 }
 
 .ho_bor .read_more:hover {
-     background: #252525;
+     background: #FFBDD4;
 }
 
 
@@ -865,7 +870,7 @@ button {
 .main_form .send_btn {
      font-size: 20px;
      transition: ease-in all 0.5s;
-     background-color: #f4a111;
+     background-color: #ffbdd4;
      text-transform: uppercase;
      color: #fff;
      padding: 8px 0px;
@@ -877,7 +882,7 @@ button {
 }
 
 .main_form .send_btn:hover {
-     background-color: #6816ef;
+     background-color: #ff95b5;
      transition: ease-in all 0.5s;
      color: #fff;
 }
@@ -1122,3 +1127,4 @@ ul.social_icon li a:hover {
 .inner_page .blog {
      margin-top: 90px;
 }
+
